@@ -1,6 +1,6 @@
-﻿namespace getCLLI
+﻿namespace LCGSearch
 {
-    partial class SearchLCG
+    partial class LCGSearchForm
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchLCG));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LCGSearchForm));
             this.searchCLLI = new System.Windows.Forms.Button();
             this.resultView = new System.Windows.Forms.DataGridView();
             this.npaLabel = new System.Windows.Forms.Label();
@@ -279,7 +279,7 @@
             this.lirData.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LirData_KeyPress);
             this.lirData.Validating += new System.ComponentModel.CancelEventHandler(this.LirData_Validating);
             // 
-            // searchLCG
+            // LCGSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -307,7 +307,7 @@
             this.Controls.Add(this.resultView);
             this.Controls.Add(this.searchCLLI);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "searchLCG";
+            this.Name = "LCGSearch";
             this.Text = "Local Calling Guide";
             ((System.ComponentModel.ISupportInitialize)(this.resultView)).EndInit();
             this.ResumeLayout(false);

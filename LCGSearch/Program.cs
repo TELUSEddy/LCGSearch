@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace getCLLI
+namespace LCGSearch
 {
     internal static class Program
     {
@@ -13,7 +13,7 @@ namespace getCLLI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SearchLCG());
+            Application.Run(new LCGSearchForm());
         }
     }
 }

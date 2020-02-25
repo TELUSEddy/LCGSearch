@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace getCLLI.Properties
+namespace LCGSearch.Properties
 {
 
 

@@ -4,13 +4,13 @@ using System.Data;
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace getCLLI
+namespace LCGSearch
 {
-    public partial class SearchLCG : Form
+    public partial class LCGSearchForm : Form
     {
         private readonly CultureInfo cultureInfo = new CultureInfo(@"fr-CA");
 
-        public SearchLCG()
+        public LCGSearchForm()
         {
             try
             {

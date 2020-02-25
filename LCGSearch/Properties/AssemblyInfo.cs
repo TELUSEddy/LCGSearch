@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("getCLLI")]
-[assembly: AssemblyDescription("Recherche de CLLI dans le Local Calling Guide")]
+[assembly: AssemblyTitle("Local Calling Guide Search Tool")]
+[assembly: AssemblyDescription("Outil de recherche pour le Local Calling Guide")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TELUS Communications Inc")]
-[assembly: AssemblyProduct("getCLLI")]
-[assembly: AssemblyCopyright("Copyright © TELUS Communications Inc 2020")]
+[assembly: AssemblyCompany("Eddy Beaupré")]
+[assembly: AssemblyProduct("LGSearch")]
+[assembly: AssemblyCopyright("Copyright © Eddy Beaupré 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

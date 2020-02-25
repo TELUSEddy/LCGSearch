@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace getCLLI
+namespace LCGSearch
 {
     internal class LocalCallingGuide
     {
