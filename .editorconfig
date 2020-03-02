@@ -14,3 +14,9 @@ dotnet_diagnostic.CA5366.severity = silent
 
 # CA1031: Ne pas intercepter les types d'exception générale
 dotnet_diagnostic.CA1031.severity = silent
+
+# CA1820: Vérifier la présence de chaînes vides par la longueur de chaîne
+dotnet_diagnostic.CA1820.severity = silent
+
+# CA1305: Spécifier IFormatProvider
+dotnet_diagnostic.CA1305.severity = silent

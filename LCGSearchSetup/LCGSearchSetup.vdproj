@@ -21,26 +21,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6CEA959FF6724606866E035BFCA82FD2"
+        "MsmKey" = "8:_CF6C102174FD4DBC8ACBC119BF6E08E7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_DB32957ECDE84DF63A7B7A7F4668C4BE"
-        "OwnerKey" = "8:_6CEA959FF6724606866E035BFCA82FD2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6CEA959FF6724606866E035BFCA82FD2"
+        "OwnerKey" = "8:_CF6C102174FD4DBC8ACBC119BF6E08E7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_DB32957ECDE84DF63A7B7A7F4668C4BE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_CF6C102174FD4DBC8ACBC119BF6E08E7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -246,11 +246,11 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LCGSearch"
         "ProductCode" = "8:{CADE8BBA-9BF0-4F17-9342-FB6715E3F6C6}"
-        "PackageCode" = "8:{B3A45691-639D-43EF-BDA5-F75DCBE62735}"
+        "PackageCode" = "8:{38B2CB02-7457-4AA7-AA6D-8DBD9454C287}"
         "UpgradeCode" = "8:{61189F6C-1499-4BA5-B3F4-10E62A630837}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
@@ -258,18 +258,18 @@
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/TELUSEddy"
         "Title" = "8:LCGSearch"
-        "Subject" = "8:"
+        "Subject" = "8:Outils de recherche pour le Local Calling Guide."
         "ARPCONTACT" = "8:Eddy Beaupré"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:Outils de recherche pour le Local Calling Guide."
+        "ARPURLINFOABOUT" = "8:https://github.com/TELUSEddy/LCGSearch"
         "ARPPRODUCTICON" = "8:_40AC2B13E3F143AEB7B86E7F3467ECDA"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:"
+        "PostBuildEvent" = "8:\"%ProgramFiles(x86)%\\Windows Kits\\10\\bin\\10.0.18362.0\\x64\\signtool.exe\" sign /tr http://timestamp.comodoca.com /n \"Eddy Beaupre\" \"$(BuiltOuputPath)\""
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -366,7 +366,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B6A38D50333D4F2C9E6A7E2627CE7714"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E299C46D6A584871949527CA73EEFA1D"
             {
             "Name" = "8:LCGSearch"
             "Arguments" = "8:"
@@ -374,7 +374,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_6CEA959FF6724606866E035BFCA82FD2"
+            "Target" = "8:_CF6C102174FD4DBC8ACBC119BF6E08E7"
             "Folder" = "8:_10CDED8230A34D6A861A265A6137D0B6"
             "WorkingFolder" = "8:_235E075D7FE34331BA1DFB2295629819"
             "Icon" = "8:"
@@ -779,9 +779,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6CEA959FF6724606866E035BFCA82FD2"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CF6C102174FD4DBC8ACBC119BF6E08E7"
             {
-            "SourcePath" = "8:..\\LCGSearch\\obj\\Debug\\LCGSearch.exe"
+            "SourcePath" = "8:..\\LCGSearch\\obj\\Release\\LCGSearch.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_235E075D7FE34331BA1DFB2295629819"
@@ -801,34 +801,6 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{7A9A6D94-02BB-406D-A36A-24373D1787C4}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AAE4BD7806274C6D91ACF0611617783F"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_235E075D7FE34331BA1DFB2295629819"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:ReferenceCopyLocalPaths"
             "OutputProjectGuid" = "8:{7A9A6D94-02BB-406D-A36A-24373D1787C4}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"

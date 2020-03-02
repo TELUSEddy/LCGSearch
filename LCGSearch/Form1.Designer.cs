@@ -51,7 +51,11 @@
             this.exchData = new System.Windows.Forms.TextBox();
             this.lirText = new System.Windows.Forms.Label();
             this.lirData = new System.Windows.Forms.TextBox();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.resultView)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // searchCLLI
@@ -72,7 +76,7 @@
             this.resultView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.resultView.Location = new System.Drawing.Point(12, 50);
             this.resultView.Name = "resultView";
-            this.resultView.Size = new System.Drawing.Size(923, 388);
+            this.resultView.Size = new System.Drawing.Size(923, 375);
             this.resultView.TabIndex = 49;
             // 
             // npaLabel
@@ -279,11 +283,40 @@
             this.lirData.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.LirData_KeyPress);
             this.lirData.Validating += new System.ComponentModel.CancelEventHandler(this.LirData_Validating);
             // 
-            // LCGSearch
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSplitButton1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(950, 22);
+            this.statusStrip1.TabIndex = 70;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 20);
+            this.toolStripSplitButton1.Text = "toolStripSplitButton1";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutCLick);
+            // 
+            // LCGSearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(950, 450);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.lirData);
             this.Controls.Add(this.lirText);
             this.Controls.Add(this.exchData);
@@ -306,10 +339,14 @@
             this.Controls.Add(this.npaLabel);
             this.Controls.Add(this.resultView);
             this.Controls.Add(this.searchCLLI);
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "LCGSearch";
+            this.Name = "LCGSearchForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Local Calling Guide";
             ((System.ComponentModel.ISupportInitialize)(this.resultView)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -339,6 +376,9 @@
         private System.Windows.Forms.TextBox exchData;
         private System.Windows.Forms.Label lirText;
         private System.Windows.Forms.TextBox lirData;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 
